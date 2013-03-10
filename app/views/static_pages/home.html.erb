@@ -5,13 +5,13 @@
   	To start earning rewards for eating at your favorite places, just sign up with your email!
   </p>
 
-  <div class="row">
+  <div class="row", id="signup">
   	<div class="span4">
   		<%= form_for(@user) do |f| %>
   		<%= render 'shared/error_messages' %>
 
-  		<%= f.label :email %>
-  		<%= f.text_field :email %>
+  		<%= f.text_field :email, 
+        :placeholder => "first.last@yale.edu" %>
 
   		<% end %>
   	</div>

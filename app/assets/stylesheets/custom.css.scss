@@ -1,10 +1,6 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
-@import "bootstrap";
-@import "bootstrap-responsive";
-
-
 /* mixins, variables, etc. */ 
 
 $grayMediumLight: #eaeaea;
@@ -218,10 +214,7 @@ input {
   padding: 5px;
 } 
 
-body {
-  /*background-image: url(http://pcdn.500px.net/746268/2c81355cd59055700ba868a204970209c0bc709c/4.jpg);*/
-  background-image: url(/assets/yale.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+#signup {
+  margin: 0 auto;
+  align: center;
 }
