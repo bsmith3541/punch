@@ -23,7 +23,10 @@ html {
 
 body {
   padding-top: 60px;
-  background-image:'../images/yale.jpg';
+  background-image: url(/assets/commons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {

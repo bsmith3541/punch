@@ -1,2 +1,19 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="container-responsive" id="main">
+  <h1>Welcome to Punch!</h1>
+
+  <p> 
+  	To start earning rewards for eating at your favorite places, just sign up with your email!
+  </p>
+
+  <div class="row">
+  	<div class="span4">
+  		<%= form_for(@user) do |f| %>
+  		<%= render 'shared/error_messages' %>
+
+  		<%= f.label :email %>
+  		<%= f.text_field :email %>
+
+  		<% end %>
+  	</div>
+	</div>
+</div>
