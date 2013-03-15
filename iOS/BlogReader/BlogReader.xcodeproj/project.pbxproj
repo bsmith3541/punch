@@ -18,6 +18,7 @@
 		9859C2E516F2A1D100F92EE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9859C2E416F2A1D100F92EE3 /* Default-568h@2x.png */; };
 		9859C2EC16F2A22A00F92EE3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9859C2EB16F2A22A00F92EE3 /* MainStoryboard.storyboard */; };
 		9859C2EF16F2C74300F92EE3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859C2EE16F2C74300F92EE3 /* TableViewController.m */; };
+		9859C2F216F3679600F92EE3 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859C2F116F3679600F92EE3 /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		9859C2EB16F2A22A00F92EE3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9859C2ED16F2C74300F92EE3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		9859C2EE16F2C74300F92EE3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9859C2F016F3679600F92EE3 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		9859C2F116F3679600F92EE3 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		9859C2D416F2A1D100F92EE3 /* BlogReader */ = {
 			isa = PBXGroup;
 			children = (
+				9859C2F016F3679600F92EE3 /* BlogPost.h */,
+				9859C2F116F3679600F92EE3 /* BlogPost.m */,
 				9859C2ED16F2C74300F92EE3 /* TableViewController.h */,
 				9859C2EE16F2C74300F92EE3 /* TableViewController.m */,
 				9859C2DD16F2A1D100F92EE3 /* AppDelegate.h */,
@@ -176,6 +181,7 @@
 				9859C2DB16F2A1D100F92EE3 /* main.m in Sources */,
 				9859C2DF16F2A1D100F92EE3 /* AppDelegate.m in Sources */,
 				9859C2EF16F2C74300F92EE3 /* TableViewController.m in Sources */,
+				9859C2F216F3679600F92EE3 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
