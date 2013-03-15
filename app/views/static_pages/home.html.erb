@@ -1,0 +1,21 @@
+<div class="container-responsive" id="main">
+  <h1>Welcome to Punch!</h1>
+
+  <p> 
+  	To start earning rewards for eating at your favorite places, just sign up with your email!
+  </p>
+
+  <div class="row", id="signup">
+  	<div class="span4">
+  		<%= form_for(@user) do |f| %>
+  		<%= render 'shared/error_messages' %>
+
+  		<%= f.text_field :email, 
+        :placeholder => "firstname.lastname@yale.edu" %>
+      <!--<%= f.text_field :password, 
+        :placeholder => "password" %>-->
+
+  		<% end %>
+  	</div>
+	</div>
+</div>
